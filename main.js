@@ -1,9 +1,9 @@
-var receiveMsgBtn = document.getElementById('meditate');
-var mantrasRBtn = document.getElementById('mantraMsg')
-var affirmationRBtn = document.getElementById('affirmationMsg')
+var receiveMessageButton = document.getElementById('meditate-image');
+var mantrasRadiotButton = document.getElementById('mantra-message')
+var affirmationRadioButton = document.getElementById('affirmation-message')
 var newMantra = document.getElementById('mantra-text');
-var radioBtnClick = document.getElementById('radioBtnC');
-var clearMessage = document.getElementById('clearMsgBtn');
+var radioButton = document.getElementById('radio-button');
+var clearMessage = document.getElementById('clear-message-button');
 
 var currentAffirmation;
 var currentMantra;
@@ -34,33 +34,32 @@ var mantras = [
     'I am not just a drop in the ocean. I am the ocean in one drop.'
 ];
 
-document.getElementById('affirmationMsg').onclick = function() {
+document.getElementById('affirmation-message').onclick = function() {
     document.getElementById('receiveMsgBtn').disabled = false;
 };
 
-document.getElementById('mantraMsg').onclick = function() {
+document.getElementById('mantra-message').onclick = function() {
     document.getElementById('receiveMsgBtn').disabled = false;
 };
 
 
 function receiveMsgClick() {
-    console.log('testing')
     var message = '';
-    receiveMsgBtn.style.visibility = "hidden";
-    if (affirmationRBtn.checked) {
+    receiveMessageButton.style.visibility = "hidden";
+    if (affirmationRadioButton.checked) {
         message = randAffirmation(affirmations);
        }
-    if (mantrasRBtn.checked) {
+    if (mantrasRadiotButton.checked) {
         message = randMantra(mantras);
      }
      newMantra.innerText = message;
      newMantra.style.visibility = "visible";
-     document.getElementById('clearMsgBtn').disabled = false;
+     document.getElementById('clear-message-button').disabled = false;
 };
 
 function clearMsgClick() {
     newMantra.innerText = '';
-    receiveMsgBtn.style.visibility = "visible";
+    receiveMessageButton.style.visibility = "visible";
 };
 
 function randAffirmation(affirmations) {
