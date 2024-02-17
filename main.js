@@ -42,7 +42,6 @@ document.getElementById('mantra-message').onclick = function() {
     document.getElementById('receive-message-button').disabled = false;
 };
 
-
 function receiveMessageClick() {
     var message = '';
     receiveMessageButton.style.visibility = "hidden";
