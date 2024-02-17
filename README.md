@@ -9,11 +9,12 @@ I made an interactable web browser using HTML, CSS, and Javascript for a simple 
 - Fork this project to your own Github account (optional)
 - Clone the repository to your local machine
 - `cd` into the project
+
 - after project has been opened run 'open index.html' in the terminal 
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
+![Screenshot 2024-02-17 at 2 57 49 PM](https://github.com/BenWehrend/self-care-center/assets/155917289/f0df5924-fbcb-40f8-b389-c7103de48e4b)
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
