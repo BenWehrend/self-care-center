@@ -75,6 +75,7 @@ black - #000000;
     justify-content: center;
     text-align: center;
     margin-top: -75px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 button {
@@ -105,6 +106,5 @@ h1,
 h2,
 button,
 input {
-    font-family: 'Quicksand', sans-serif;
     color: white;
 }
