@@ -35,11 +35,11 @@ var mantras = [
 ];
 
 document.getElementById('affirmation-message').onclick = function() {
-    document.getElementById('receiveMsgBtn').disabled = false;
+    document.getElementById('receive-message-button').disabled = false;
 };
 
 document.getElementById('mantra-message').onclick = function() {
-    document.getElementById('receiveMsgBtn').disabled = false;
+    document.getElementById('receive-message-button').disabled = false;
 };
 
 
