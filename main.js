@@ -1,5 +1,5 @@
 var receiveMessageButton = document.getElementById('meditate-image');
-var mantrasRadiotButton = document.getElementById('mantra-message')
+var mantrasRadioButton = document.getElementById('mantra-message')
 var affirmationRadioButton = document.getElementById('affirmation-message')
 var newMantra = document.getElementById('mantra-text');
 var radioButton = document.getElementById('radio-button');
@@ -43,13 +43,13 @@ document.getElementById('mantra-message').onclick = function() {
 };
 
 
-function receiveMsgClick() {
+function receiveMessageClick() {
     var message = '';
     receiveMessageButton.style.visibility = "hidden";
     if (affirmationRadioButton.checked) {
         message = randAffirmation(affirmations);
        }
-    if (mantrasRadiotButton.checked) {
+    if (mantrasRadioButton.checked) {
         message = randMantra(mantras);
      }
      newMantra.innerText = message;
@@ -57,7 +57,7 @@ function receiveMsgClick() {
      document.getElementById('clear-message-button').disabled = false;
 };
 
-function clearMsgClick() {
+function clearMessageClick() {
     newMantra.innerText = '';
     receiveMessageButton.style.visibility = "visible";
 };
