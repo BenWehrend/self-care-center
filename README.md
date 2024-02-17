@@ -35,5 +35,6 @@ I used VSCode for pretty much all of my coding. Only made adjustments using the 
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
-Wins: Making a functioning, although very limited, browser that can be interacted with. I was also able to get over the hurdles faster than the first and second projects. 
+Wins: Making a functioning, although very limited, browser that can be interacted with. I was also able to get over the hurdles faster than the first and second projects.
+
 Challenges: figuring out the best way to accomplish what was being asked to first time around. 
