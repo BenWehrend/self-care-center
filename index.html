@@ -10,18 +10,21 @@
     <div class="messages">
       <div class="container2">
         <form>
-          <label class="radio-inline">
-            <input type="radio" name="optradio" checked>affirmation
+          <label class="radio-inline radiobtn1">
+            <input type="radio" name="optradio" id="affirmationMsg"><em>affirmation</em>
           </label>
-          <label class="radio-inline">
-            <input type="radio" name="optradio">mantra
+          <label class="radio-inline radio-margin radiobtn2">
+            <input type="radio" name="optradio" id="mantraMsg"><em>mantra</e>
         </form>
       </div>
-      <button>Receive Message</button>
+      <button id="receiveMsgBtn" onclick="receiveMsgClick()">Receive Message</button>
     </div>
     <div class="mantra">
-
+      <img src="https://tse2.mm.bing.net/th?id=OIP.Ln8GELm6x5WM_En-bD2uXwHaJ1&pid=Api&P=0&h=220" id="meditate" alt="yoga pose" width="110" height="110" style="visibility: visible;">
+      <p id="mantra-text" style="visibility: hidden;">text</p>
     </div>
+    </div>
+    <script> src="data.js"</script>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
