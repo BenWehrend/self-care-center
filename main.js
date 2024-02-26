@@ -63,7 +63,6 @@ function clearMessageClick() {
 
 function randAffirmation(affirmations) {
     return affirmations[getRandomIndex(affirmations)];
-
 };
 
 function randMantra(mantras) {
