@@ -7,7 +7,7 @@ I made an interactable web browser using HTML, CSS, and Javascript for a simple 
 ### Installation Instructions:
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 - Fork this project to your own Github account (optional)
-- Clone the repository to your local machine
+- Clone the repository to your local machine using 'git clone git@github.com:BenWehrend/self-care-center.git'
 - `cd` into the project
 
 - after project has been opened run 'open index.html' in the terminal 
