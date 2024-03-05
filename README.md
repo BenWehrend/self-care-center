@@ -18,7 +18,7 @@ I made an interactable web browser using HTML, CSS, and Javascript for a simple 
 
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
-This was our second solo project that was given to us at Turing (and the thrid week). It took me 4 out of the 6 given days. 
+This was our second solo project that was given to us at Turing (assigned the third week I was enrolled at Turing). It took me 4 out of the 6 given days. 
 
 ### Contributors:
 [//]: <> (Who worked on this application? Link to their GitHubs.)
